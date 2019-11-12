@@ -1,0 +1,16 @@
+<layout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ContentDescription"
+    tools:keep="@layout/sasrecyclerview_row">
+    <data>
+        <import type="android.view.View"/>
+        <variable name="obj" type="java.lang.Object"/>
+    </data>
+    <RelativeLayout
+        android:id="@+id/ignoreMe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </RelativeLayout>
+</layout>

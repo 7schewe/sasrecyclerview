@@ -1,0 +1,5 @@
+<resources>
+    <string name="item_removed">Eintrag wurde entfernt.</string>
+    <string name="undo_button">Rückgängig machen.</string>
+    <string name="undo_item_removed">Eintrag wieder eingefügt.</string>
+</resources>
