@@ -1,7 +1,9 @@
 apply plugin: 'com.android.library' 
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'com.github.7schewe'
+Group = 'com.github.7schewe'
+Artifact: 'sasrecyclerview'
+Version: '-SNAPSHOT'
 
 android {
     dataBinding {
