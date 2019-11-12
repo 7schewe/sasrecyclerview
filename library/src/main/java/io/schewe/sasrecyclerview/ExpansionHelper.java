@@ -6,7 +6,6 @@ import androidx.databinding.Bindable;
 
 public class ExpansionHelper extends BaseObservable {
 
-
     private ExpansionManager expansionManager;
     private int position;
     private long lastClick;
@@ -17,9 +16,7 @@ public class ExpansionHelper extends BaseObservable {
     }
 
     @Bindable
-    public boolean getExpansion() {
-        return this.expansionManager.getExpandedPosition() == this.position;
-    }
+    public boolean getExpansion() { return this.expansionManager.getExpandedPosition() == this.position; }
 
     public void switchExpansion() {
         long rightNow = System.currentTimeMillis();
