@@ -10,5 +10,5 @@ android {
 }
 
 dependencies {
-    implementation Deps.androidx_material
+    implementation "com.google.android.material:material:1.0.0"
 }
