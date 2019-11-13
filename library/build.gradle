@@ -1,16 +1,16 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'  
+apply plugin: 'com.github.dcendents.android-maven'
 
- group = 'com.github.7schewe'
- artifacts = 'sasrecyclerview'
- version = 'master-SNAPSHOT'
+//noinspection GroovyUnusedAssignment
+group = 'com.github.7schewe'
 
 android {
     dataBinding {
         enabled = true
-    }   
+    }
+
     compileSdkVersion 29
-    buildToolsVersion "28.0.2"
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 23
